@@ -1,0 +1,66 @@
+.MovieCard{
+    border-radius: 6px !important;
+    -webkit-box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.74);
+    -moz-box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.74);
+    box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.74);
+}
+
+.MovieCard img{ 
+    object-fit: cover
+}
+
+.MovieCard .ant-rate .ant-rate-star{ 
+    margin-right: 2px;
+}
+
+.MovieCard .ant-rate .ant-rate-star:last-child{ 
+    margin-right: 10px;
+}
+
+
+.MovieCard .ant-rate .ant-rate-star svg{ 
+    font-size: 15px;
+}
+
+.MovieCard .title{ 
+    font-size: 20px;
+}
+
+.MovieCard .movie-meta-column{ 
+    display: flex
+}
+
+.MovieCard span.movie-meta{ 
+    font-size: 11px !important;
+    vertical-align: sub;
+    margin: auto 7px auto auto;
+}
+
+.MovieCard p.description{ 
+    font-size: 11px !important;
+    text-align: left;
+}
+
+.MovieCard .play-button{ 
+    color: white;
+    background-color: red;
+    border-color: red;
+}
+
+.MovieCard .play-button:hover, .MovieCard .play-button:focus, .MovieCard .play-button:active{ 
+    color: red;
+    background-color: white;
+    border-color: red;
+}
+
+.MovieCard .add-tolist-button{ 
+    color: white;
+    background-color: darkblue;
+    border-color: darkblue;
+}
+
+.MovieCard .add-tolist-button:hover, .MovieCard .add-tolist-button:focus, .MovieCard .add-tolist-button:active{ 
+    color: darkblue;
+    background-color: white;
+    border-color: darkblue;
+}

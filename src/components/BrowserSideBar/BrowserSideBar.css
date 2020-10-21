@@ -1,0 +1,23 @@
+.BrowserCard{
+    border-radius: 6px !important;
+    -webkit-box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.74);
+    -moz-box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.74);
+    box-shadow: 1px 3px 18px -5px rgba(0,0,0,0.74);
+
+    padding: 30px;
+    max-width: 400px;
+}
+
+.BrowserCard .heading{ 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.BrowserCard .category-item{ 
+    font-size: 15px;
+    color:rgba(0,0,0,0.7);
+}
+.BrowserCard .category-item:hover{ 
+    font-size: 15px;
+    color:rgba(0,0,0,0.3);
+}

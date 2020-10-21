@@ -1,0 +1,13 @@
+.NavBar{
+    display: flex;
+}
+
+.NavBar .align-right{
+    margin-right: 0px !important;
+    margin-left: auto !important;
+}
+
+.NavBar .align-right-last{
+    margin-right: 15px !important;
+    margin-left: auto !important;
+}
